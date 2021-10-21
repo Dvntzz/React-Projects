@@ -1,0 +1,19 @@
+.task-Details-Container{
+    background-color: rgba(68, 68, 68, 0.603);
+    border-radius: 5px;
+    padding: 3px 15px;
+    margin: 5px;
+    color: white;
+}
+
+.back-button-container{
+    width: 30%;
+    margin: 20px auto;
+    justify-content: space-between;
+}
+
+.title{
+    color: yellowgreen;
+    font: arial;
+    font-size: 20px;
+}

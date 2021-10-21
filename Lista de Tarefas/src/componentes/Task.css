@@ -1,0 +1,29 @@
+.task-container {
+    background-color: #444;
+    margin: 8px 0px;
+    padding: 15px 20px;
+    display: flex;
+    border-radius: 5px;
+    justify-content: space-between;
+    color: #eee;
+    align-items: center;
+}
+
+.buttons-container{
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.task-title{
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.removeTaskButton, .seeTaskButton{
+    background-color: #444;
+    border: none;
+    font-size: 20px;
+    color: chartreuse;
+    cursor: pointer;
+}
