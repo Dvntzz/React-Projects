@@ -68,6 +68,11 @@
   font-size: 39px;
 }
 
+.main h4 {
+  margin: 16px 10px;
+  text-align: center;
+}
+
 .main span {
   margin-bottom: 16px;
   font-weight: bold;

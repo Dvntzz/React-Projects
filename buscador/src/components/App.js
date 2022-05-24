@@ -46,7 +46,15 @@ function App() {
           />
         </button>
       </div>
-
+      {data.erro && (
+        <main className={styles.main}>
+          <h4>
+            cep desconhecido! <br />
+            <br />
+            verifique se o cep que digitou está correto e contém apenas numeros!
+          </h4>
+        </main>
+      )}
       {data.cep !== undefined && (
         <main className={styles.main}>
           <h2>CEP: {data.cep}</h2>
